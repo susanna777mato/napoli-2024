@@ -1,0 +1,783 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(#2889d8, #0f1213);
+}
+
+.section-1 {
+  width: 100%;
+  height: 100vh;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  height: 80px;
+  background-color: #192831;
+}
+
+.svg-nav {
+  width: 30px;
+  height: 30px;
+}
+
+.nav-text {
+  color: #ffff;
+  padding-left: 37px;
+  padding-top: 8px;
+}
+
+.nav-text-1 {
+  color: #ffff;
+  padding-top: 8px;
+  padding-left: 10px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  width: 615px;
+  height: 26px;
+}
+
+.buto1,
+.buto2 {
+  width: 218px;
+  height: 39px;
+  background-color: #084aa7;
+  color: #ffff;
+  border: none;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.img-1 {
+  width: 100%;
+  height: calc(100vh - 5rem);
+}
+
+.section-2 {
+  background-image: url(./img/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.png);
+  height: 1000px;
+  width: 100%;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.h1-sc2 {
+  padding-right: 20px;
+  padding-top: 30px;
+  width: 729px;
+  height: 94px;
+  font-weight: 700;
+  font-size: 50px;
+  color: #ffff;
+}
+
+.span-sc2 {
+  padding-left: 65px;
+  padding-top: 45px;
+  width: 826px;
+  height: 48px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffff;
+}
+
+.text-section2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.svg-box-sc2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding-right: 60px;
+  position: relative;
+}
+
+.svg-sc2 {
+  width: 405px;
+}
+
+.svg1-sc2 {
+  width: 400px;
+}
+
+.kvara {
+  position: absolute;
+  bottom: 350px;
+  right: 350px;
+}
+
+.osimen {
+  position: absolute;
+  left: 718px;
+  bottom: 345px;
+}
+
+.lovotka {
+  position: absolute;
+  left: 1120px;
+  bottom: 350px;
+}
+
+.oll {
+  position: absolute;
+  transform: translate(-50%);
+  width: 586px;
+  height: 118px;
+}
+
+.players1 {
+  width: 350px;
+  height: 420px;
+}
+
+.players-name {
+  width: 100%;
+  padding-right: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-direction: row;
+  color: #ffff;
+}
+
+.statistica-kvara h3 {
+  font-weight: 700;
+  font-size: 24px;
+  width: 100px;
+  height: 28px;
+  padding-bottom: 10px;
+}
+
+.xvicha-name h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.statistica-kvara {
+  display: flex;
+  flex-direction: column;
+}
+
+.Apparences-xvicha {
+  display: flex;
+  flex-direction: row;
+  gap: 210px;
+}
+
+.Apparences-lovotka {
+  display: flex;
+  flex-direction: row;
+  gap: 190px;
+}
+
+.Apparences-osimen {
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+.svg-number {
+  position: relative;
+  width: 34px;
+  height: 34px;
+}
+
+.pading {
+  width: 40px;
+  height: 40px;
+}
+
+.gol,
+.Assists {
+  margin-top: 8px;
+}
+
+.number1 {
+  position: absolute;
+  top: 9px;
+  left: 9px;
+  font-size: 18px;
+}
+
+.number2 {
+  position: absolute;
+  bottom: 4px;
+  left: 10px;
+  font-size: 20px;
+}
+
+.nummber2 {
+  position: absolute;
+  bottom: 4px;
+  left: 14px;
+  font-size: 20px;
+}
+
+.number3 {
+  position: absolute;
+  bottom: 5px;
+  left: 14px;
+  font-size: 20px;
+}
+
+.section-3 {
+  height: 1000px;
+  width: 100%;
+  background-image: url(./svg/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 1.svg);
+}
+
+.h1-sc3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: #ffff;
+  width: 100%;
+  padding-top: 70px;
+  font-size: 80px;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #1d2e37;
+  background-color: #1d2e37;
+  width: 456px;
+  height: 527px;
+  opacity: 0.9;
+}
+
+.box-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 15px;
+}
+
+.napoli-halloween {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text-sc3 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 17px;
+  padding-top: 13px;
+}
+
+.dolor {
+  padding-top: 10px;
+  font-weight: 700;
+  color: #ffff;
+  font-size: 30px;
+}
+
+.buton-sc3 {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.buto-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Shop {
+  border: none;
+  border: #e1f21c 2px solid;
+  width: 147px;
+  height: 28px;
+  background-color: #1d2e37;
+  color: #e1f21c;
+}
+
+.add {
+  border: none;
+  border: 2px #ffff solid;
+  width: 147px;
+  height: 28px;
+  color: #ffff;
+  background-color: #1d2e37;
+}
+
+.section-4 {
+  height: 1464px;
+  width: 100%;
+  background-image: url(./img/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+}
+
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  flex-direction: row;
+}
+
+.text-3 {
+  color: #ffff;
+  font-weight: 700;
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.buton-sc4 {
+  border: none;
+  width: 224px;
+  height: 43px;
+  border: 2px solid #e1f21c;
+  background-color: #e1f21c;
+  border-radius: 10px;
+}
+
+.xudi-div,
+.trousers-div {
+  width: 70px;
+  height: 380px;
+  padding-top: 50px;
+}
+
+.cloth-merch {
+  padding-right: 250px;
+}
+
+.trousers-div {
+  padding-left: 140px;
+}
+
+.iqon-sc4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 100px;
+  gap: 600px;
+  width: 100%;
+  height: 400px;
+}
+
+.section-5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 972px;
+  background-image: url(./img/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 2.png);
+}
+
+.svg-video {
+  position: absolute;
+  bottom: 415px;
+  left: 770px;
+}
+
+.img-video {
+  position: relative;
+}
+
+.section-6 {
+  background-image: url(./svg/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 1.svg);
+  width: 100%;
+  height: 1700px;
+}
+
+.box-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80%;
+  flex-direction: row;
+  padding-bottom: 200px;
+}
+
+.text-sc6 {
+  padding-top: 100px;
+  width: 100%;
+  height: 94px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.text-registr {
+  padding-top: 20px;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffff;
+  font-weight: 700;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-container-sc6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 1100px;
+}
+
+.img-sc6 {
+  padding-top: 270px;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 600px;
+  padding-left: 70px;
+  padding-top: 40px;
+  gap: 36px;
+  color: #ffff;
+}
+
+.input-name-last {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.name {
+  width: 219px;
+}
+
+input {
+  border: none;
+  border: 2px solid #0b2538;
+  background-color: #0b2538;
+  height: 40px;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+.email {
+  width: 457px;
+}
+
+.input-box span {
+  padding-right: 265px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.buto-6 {
+  border: none;
+  border: 2px #084aa7 solid;
+  width: 218px;
+  height: 39px;
+  background-color: #084aa7;
+  border-radius: 10px;
+}
+
+.buto-div-6 {
+  padding-right: 249px;
+}
+
+.arena {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 290px;
+}
+
+.section7 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./svg/png-transparent-bats-illustration-bat-halloween-bat-leaf-hand-heart\ 3.svg);
+}
+
+.box-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 80px;
+  margin-top: 80px;
+  gap: 30px;
+}
+
+.Matchday {
+  font-size: 20px;
+}
+
+.wed-jan {
+  font-size: 30px;
+}
+
+.cet {
+  margin-left: 10px;
+}
+
+.logo-box7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  color: #ffff;
+  padding-top: 80px;
+}
+
+.box-colum-7 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.time-20-45 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-napoli-inter {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+
+.inter,
+.napoli {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.date {
+  font-size: 39px;
+  font-weight: 600;
+}
+
+.text-sc7 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Hours {
+  display: flex;
+  flex-direction: row;
+  color: #fff500;
+  font-size: 15px;
+  font-weight: 600;
+  gap: 75px;
+  padding-bottom: 20px;
+}
+
+.card {
+  width: 500px;
+  border-radius: 20px;
+  border: 2px solid #04163a;
+  background-color: #04163a;
+  opacity: 0.8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-1 {
+  height: 543px;
+}
+
+.shadow-box-1 {
+  height: 493px;
+}
+
+.shadow-box {
+  width: 402px;
+  border: 2px #fff500b2 solid;
+  border-radius: 18px;
+  box-shadow: 5px 5px 15px #fff500b2, -5px -5px 15px #fff500b2;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-info {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.title-card {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffff;
+  border-bottom: #fff500b2 2px solid;
+  padding-bottom: 10px;
+  width: 344px;
+}
+
+.img-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qvesten-text {
+  color: #ffff;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  color: #ffff;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.buto-list {
+  width: 336px;
+  height: 39px;
+  background-color: #084aa7;
+  color: #e1f21c;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  border-radius: 30px;
+}
+
+.card-2 {
+  height: 719px;
+}
+
+.shadow-box-2 {
+  height: 669px;
+}
+
+.buto-list-2 {
+  display: flex;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.card-3 {
+  height: 879px;
+}
+
+.card-start {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  height: 879px;
+}
+
+.shadow-box-3 {
+  height: 839px;
+}
+
+.buto-list-3 {
+  display: flex;
+  align-items: flex-end;
+  height: 50px;
+}
+
+.text-list-3 {
+  font-size: 18px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 1400px;
+  gap: 40px;
+}
+
+.footer-text {
+  color: #ffff;
+  display: flex;
+  gap: 40px;
+}
+
+.span-1 {
+  width: 173px;
+  height: 24px;
+}
+
+.span-2 {
+  width: 173px;
+  height: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-svg {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.footer-text-2 {
+  align-items: flex-start;
+  display: flex;
+}
+
+hr {
+  width: 1400px;
+}
+
+.footer-pre {
+  color: #ffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+button:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
